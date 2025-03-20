@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>  
+    <h1 class="titulo"> TO-DO LIST </h1>
+    <main> 
+        <section id="to-do" class="para-fazer">
+            <div class="titulo-2">
+                <h1>To-Do</h1>
+                <input type="button" value="+" class="botao-todo" onclick="adicionar('to-do')">
+            </div>
+            
+            <label class="item" onclick="mover(this, 'doing')">Alguma coisa</label>
+        </section>
+        <section id="doing" class="fazendo">
+            <div class="titulo-2">
+                <h1>Doing</h1>
+                <input type="button" value="+" class="botao-doing" onclick="adicionar('doing')">
+            </div>
+        </section>
+        <section id="done" class="feito">
+            <div class="titulo-2">
+                <h1>Done</h1>
+                <input type="button" value="+" class="botao-done" onclick="adicionar('done')">
+            </div>
+        </section>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #004643;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    padding-top: 6%;
+    padding-bottom: 0;
+    color: #abd1c6;
+    font-size:3rem;
+}
+
+main{
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: center;
+}
+
+section{
+    height: 20rem;
+    width: 14rem;
+    border-radius: 5%;
+    padding-top: 0.5%;
+}
+
+.titulo-2{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: 1rem; 
+    padding-left: 20%;
+}
+
+.para-fazer{
+    background-color: #e8e4e6;
+}
+.fazendo{
+    background-color: #abd1c6;
+}
+.feito{
+    background-color: #e16162;
+}
+
+input{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+.botao-todo{
+    background-color: #e8e4e6;
+}
+.botao-doing{
+    background-color: #abd1c6;  
+}
+.botao-done{
+    background-color: #e16162;  
+}
+
+
